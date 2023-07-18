@@ -10,6 +10,7 @@ openai.api_key = api_key
 # get user input
 user_prompt = input("Enter your question: ")
 
+# or whatever your model is called
 model_name = "curie:ft-personal-2023-07-17-20-07-10"
 
 context = """

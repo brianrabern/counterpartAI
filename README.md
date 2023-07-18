@@ -1,10 +1,10 @@
 # counterpartAI
 
-counterpartAI is a project that leverages OpenAI's 'currie' model to create an AI assistant capable of engaging in philosophical discussions as if it were the philosopher David Lewis -- currently it is limited to his book "The Plurality of Worlds".
+counterpartAI is a project that leverages OpenAI's language models (e.g. 'currie' or 'davinci' or 'ada') to create an AI assistant capable of engaging in philosophical discussions as if it were the philosopher David Lewis -- currently it is limited to his book "The Plurality of Worlds".
 
 ## Introduction
 
-The AI has been fine-tuned on a curie model. The system uses OpenAI's Python library for API interactions and leverages NLP techniques to generate context-aware responses.
+The system uses OpenAI's Python library for API interactions and leverages NLP techniques to generate context-aware responses.
 
 ## Installation
 
@@ -33,7 +33,7 @@ The AI has been fine-tuned on a curie model. The system uses OpenAI's Python lib
 
 ## Usage
 
-To interact with CounterpartAI and receive responses run the provided Python script:
+To interact with counterpartAI and receive responses run the provided Python script:
 
 ```bash
 python lewis_bot.py

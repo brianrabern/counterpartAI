@@ -10,7 +10,7 @@ openai.api_key = api_key
 
 # path to training data
 training_data_file = "training_data_prepared.jsonl"
-model = "davinci"
+model = "currie"  # or davinci or ada, etc.
 
 # define the fine-tuning command
 fine_tune = [
